@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Figuras</string>
+
+    <string name="cuadrado">Cuadrado</string>
+    <string name="rectangulo">Rectángulo</string>
+    <string name="triangulo">Triángulo</string>
+    <string name="circulo">Círculo</string>
+
+    <string name="esfera">Esfera</string>
+    <string name="cilindro">Cilindro</string>
+    <string name="cono">Cono</string>
+    <string name="cubo">Cubo</string>
+
+
+    <string name="operacion">Operación</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+    <string name="numero">No.</string>
+
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+
+    <string name="mensaje_guardado">Operación guardada exitosamente</string>
+
+    <string name="areas">Areas</string>
+    <string name="volumenes">Volúmenes</string>
+    <string name="op_realizadas">Operaciónes Realizadas</string>
+    <string name="valor_lado">Valor de L</string>
+    <string name="valor_base">Valor de b</string>
+    <string name="valor_altura">Valor de h</string>
+    <string name="valor_radio">Valor de r</string>
+
+    <string-array name="opciones_principal">
+        <item>@string/areas</item>
+        <item>@string/volumenes</item>
+        <item>@string/op_realizadas</item>
+
+    </string-array>
+
+    <string-array name="opciones_areas">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </string-array>
+
+    <string-array name="opciones_volumenes">
+        <item>@string/esfera</item>
+        <item>@string/cilindro</item>
+        <item>@string/cono</item>
+        <item>@string/cubo</item>
+    </string-array>
+
+</resources>
