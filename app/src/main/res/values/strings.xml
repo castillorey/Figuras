@@ -51,4 +51,8 @@
         <item>@string/cubo</item>
     </string-array>
 
+    <string name="error_cantidad_vacio">No deben haber campos vacios</string>
+    <string name="error_cantidad_cero">Ingrese un numero diferente de cero</string>
+    <string name="error_formato">Ingrese un formato de número valido</string>
+
 </resources>

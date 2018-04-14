@@ -33,11 +33,7 @@ public class Operacion {
         return resultado;
     }
 
-    public void setResultado(String resultado) {
-        this.resultado = resultado;
-    }
+    public void setResultado(String resultado) { this.resultado = resultado; }
 
-    public void guardar(){
-        Datos.guardar(this);
-    }
+    public void guardar(){ Datos.guardar(this); }
 }
