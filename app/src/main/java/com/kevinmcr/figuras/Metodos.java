@@ -83,7 +83,7 @@ public class Metodos {
         Double resultado, radio, altura;
         radio = Double.parseDouble(_radio);
         altura = Double.parseDouble(_altura);
-        resultado = (1/3) * 3.14159265359 * Math.pow(radio,2) * altura;
+        resultado = (0.3333333333 * 3.14159265359) * (Math.pow(radio,2) * altura);
 
         Operacion o = new Operacion("Volúmen del cono","Radio: "+radio+ "\nAltura: "+altura,String.format("%.2f",resultado)+" m3");
         o.guardar();

@@ -16,23 +16,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Metodos.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Metodos.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCilindro.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCilindro.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCirculo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCirculo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCono.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCono.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCuadrado.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCuadrado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCubo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCubo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroEsfera.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroEsfera.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroRectangulo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroRectangulo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroTriangulo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroTriangulo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cilindro.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cilindro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_circulo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_circulo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cono.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cono.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cuadrado.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cuadrado.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cubo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cubo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_esfera.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_esfera.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_rectangulo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_rectangulo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_triangulo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_triangulo.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,125 +37,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Metodos.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExampleUnitTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/kevinmcr/figuras/ExampleUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Metodos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Metodos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="100" lean-forward="false" selection-start-line="98" selection-start-column="100" selection-end-line="98" selection-end-column="100" />
+            <state relative-caret-position="674">
+              <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistroCuadrado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCuadrado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="71" />
-              <folding>
-                <element signature="e#1768#2091#0" expanded="true" />
-                <element signature="e#1973#2024#0" expanded="true" />
-                <element signature="e#2090#2091#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistroRectangulo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroRectangulo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
-              <folding>
-                <element signature="e#2454#2779#0" expanded="true" />
-                <element signature="e#2661#2712#0" expanded="true" />
-                <element signature="e#2778#2779#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistroTriangulo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroTriangulo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="68" column="71" lean-forward="false" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
-              <folding>
-                <element signature="e#2513#2837#0" expanded="true" />
-                <element signature="e#2836#2837#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistroCirculo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCirculo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-              <folding>
-                <element signature="e#1782#2104#0" expanded="true" />
-                <element signature="e#1986#2037#0" expanded="true" />
-                <element signature="e#2103#2104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistroEsfera.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroEsfera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="51" column="65" lean-forward="false" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="71" />
-              <folding>
-                <element signature="e#1813#2154#0" expanded="true" />
-                <element signature="e#2028#2079#0" expanded="true" />
-                <element signature="e#2153#2154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistroCilindro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCilindro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="66" column="70" lean-forward="false" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
-              <folding>
-                <element signature="e#2472#2815#0" expanded="true" />
-                <element signature="e#2689#2740#0" expanded="true" />
-                <element signature="e#2814#2815#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistroCono.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCono.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="66" column="71" lean-forward="false" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
-              <folding>
-                <element signature="e#2460#2799#0" expanded="true" />
-                <element signature="e#2673#2724#0" expanded="true" />
-                <element signature="e#2798#2799#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistroCubo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCubo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-              <folding>
-                <element signature="e#1209#1262#0" expanded="true" />
-                <element signature="e#1763#2102#0" expanded="true" />
-                <element signature="e#1976#2027#0" expanded="true" />
-                <element signature="e#2101#2102#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1906,7 +1791,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Operacion.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Datos.java" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/kevinmcr/figuras/ExampleUnitTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_areas.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_volumenes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Areas.java" />
@@ -1916,21 +1800,22 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cuadrado.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_rectangulo.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_triangulo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_circulo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_esfera.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cilindro.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cono.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cubo.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Metodos.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCuadrado.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroRectangulo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroTriangulo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCirculo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroEsfera.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCilindro.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCono.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCubo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cilindro.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_triangulo.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCilindro.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cono.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Metodos.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/kevinmcr/figuras/ExampleUnitTest.java" />
       </list>
     </option>
   </component>
@@ -2031,6 +1916,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Figures" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="figuras" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2543,16 +2446,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/kevinmcr/figuras/ExampleUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Operacion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -2640,17 +2533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_areas.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2659,104 +2541,6 @@
         <state relative-caret-position="30">
           <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_rectangulo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cuadrado.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_triangulo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_esfera.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_circulo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cilindro.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cono.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cubo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Metodos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="100" lean-forward="false" selection-start-line="98" selection-start-column="100" selection-end-line="98" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2784,65 +2568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroTriangulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="68" column="71" lean-forward="false" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
-          <folding>
-            <element signature="e#2513#2837#0" expanded="true" />
-            <element signature="e#2836#2837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCirculo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-          <folding>
-            <element signature="e#1782#2104#0" expanded="true" />
-            <element signature="e#1986#2037#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroEsfera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="51" column="65" lean-forward="false" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="71" />
-          <folding>
-            <element signature="e#1813#2154#0" expanded="true" />
-            <element signature="e#2028#2079#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCilindro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="66" column="70" lean-forward="false" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
-          <folding>
-            <element signature="e#2472#2815#0" expanded="true" />
-            <element signature="e#2689#2740#0" expanded="true" />
-            <element signature="e#2814#2815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCono.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="66" column="71" lean-forward="false" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
-          <folding>
-            <element signature="e#2460#2799#0" expanded="true" />
-            <element signature="e#2673#2724#0" expanded="true" />
-            <element signature="e#2798#2799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCubo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -2852,6 +2577,167 @@
             <element signature="e#1763#2102#0" expanded="true" />
             <element signature="e#1976#2027#0" expanded="true" />
             <element signature="e#2101#2102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_circulo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cuadrado.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_triangulo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_rectangulo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_esfera.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cubo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCirculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCilindro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroTriangulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="68" column="71" lean-forward="false" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cilindro.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroEsfera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="51" column="70" lean-forward="false" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+          <folding>
+            <element signature="e#1813#2154#0" expanded="true" />
+            <element signature="e#2028#2079#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro_cono.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/RegistroCono.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="66" column="65" lean-forward="false" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/kevinmcr/figuras/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kevinmcr/figuras/Metodos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

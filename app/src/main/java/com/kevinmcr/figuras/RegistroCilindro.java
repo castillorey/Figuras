@@ -23,7 +23,7 @@ public class RegistroCilindro extends AppCompatActivity {
     }
 
     public void guardar (View v){
-        String _radio = txtRadio.getText().toString(),_altura = txtAltura.getText().toString(),
+        String _radio = txtRadio.getText().toString(), _altura = txtAltura.getText().toString(),
         regEx = "^[0-9]+([.][0-9]+)?$"; //Para validar que no ingresen: ( .0) (0. ) ( . )
         Double resultado;
 
