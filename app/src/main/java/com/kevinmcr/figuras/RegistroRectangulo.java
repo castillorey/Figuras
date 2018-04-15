@@ -58,12 +58,8 @@ public class RegistroRectangulo extends AppCompatActivity {
             valid = false;
         }
         if(valid){
-            Double resultado, base, altura;
-            base = Double.parseDouble(txtBase.getText().toString());
-            altura = Double.parseDouble(txtAltura.getText().toString());
-            resultado = base * altura;
 
-            Operacion o = new Operacion("Área del rectangulo","Base: "+base+"\nAltura: "+altura,resultado+" m2");
+            Operacion o = Metodos.operacionAreaRectangulo(_base,_altura);
             o.guardar();
             Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
         }

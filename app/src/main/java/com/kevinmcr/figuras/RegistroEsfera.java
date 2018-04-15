@@ -43,11 +43,8 @@ public class RegistroEsfera extends AppCompatActivity {
         }
 
         if(valid){
-            Double resultado, radio;
-            radio = Double.parseDouble(txtRadio.getText().toString());
-            resultado = (4/3) * 3.14159265359 * Math.pow(radio,3);
 
-            Operacion o = new Operacion("Volúmen de la esfera","Radio: "+radio,resultado+" m3");
+            Operacion o = Metodos.operacionVolumenEsfera(_radio);
             o.guardar();
             Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
         }

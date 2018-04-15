@@ -42,11 +42,8 @@ public class RegistroCubo extends AppCompatActivity {
             valid = false;
         }
         if(valid){
-            Double resultado, lado;
-            lado = Double.parseDouble(txtLado.getText().toString());
-            resultado = Math.pow(lado,lado);
 
-            Operacion o = new Operacion("Volúmen del cubo","Lado: "+lado,resultado+" m3");
+            Operacion o = Metodos.operacionVolumenCubo(_lado);
             o.guardar();
             Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
         }

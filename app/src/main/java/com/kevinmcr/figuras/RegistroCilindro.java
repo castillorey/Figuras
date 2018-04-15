@@ -58,12 +58,8 @@ public class RegistroCilindro extends AppCompatActivity {
             valid = false;
         }
         if(valid){
-            Double resultado, radio, altura;
-            radio = Double.parseDouble(_radio);
-            altura = Double.parseDouble(_altura);
-            resultado = 3.14159265359 * Math.pow(radio,2) * altura;
 
-            Operacion o = new Operacion("Volúmen del cilindro","Radio: "+radio+ "\nAltura: "+altura,resultado+" m3");
+            Operacion o = Metodos.operacionVolumenCilindro(_radio,_altura);
             o.guardar();
             Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
         }

@@ -58,12 +58,8 @@ public class RegistroCono extends AppCompatActivity {
             valid = false;
         }
         if(valid){
-            Double resultado, radio, altura;
-            radio = Double.parseDouble(txtRadio.getText().toString());
-            altura = Double.parseDouble(txtAltura.getText().toString());
-            resultado = (1/3) * 3.14159265359 * Math.pow(radio,2) * altura;
 
-            Operacion o = new Operacion("Volúmen del cono","Radio: "+radio+ "\nAltura: "+altura,resultado+" m3");
+            Operacion o = Metodos.operacionVolumenCono(_radio,_altura);
             o.guardar();
             Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
         }

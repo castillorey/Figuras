@@ -42,11 +42,8 @@ public class RegistroCuadrado extends AppCompatActivity {
             valid = false;
         }
         if (valid){
-            Double resultado, lado;
-            lado = Double.parseDouble(txtLado.getText().toString());
-            resultado = Math.pow(lado,lado);
 
-            Operacion o = new Operacion("Área del cuadrado","Lado: "+lado,resultado+" m2");
+            Operacion o = Metodos.operacionAreaCuadrado(_lado);
             o.guardar();
             Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
         }

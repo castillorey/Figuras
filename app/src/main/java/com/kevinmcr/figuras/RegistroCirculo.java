@@ -42,11 +42,8 @@ public class RegistroCirculo extends AppCompatActivity {
             valid = false;
         }
         if(valid){
-            Double resultado, radio;
-            radio = Double.parseDouble(txtRadio.getText().toString());
-            resultado = 3.14159265359 * Math.pow(radio,2);
 
-            Operacion o = new Operacion("Área del circulo","Radio: "+radio,resultado+" m2");
+            Operacion o = Metodos.operacionAreaCirculo(_radio);
             o.guardar();
             Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
         }
