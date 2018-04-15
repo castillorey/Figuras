@@ -5,7 +5,7 @@
     android:id="@+id/lstAreas"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kevinmcr.figuras.Principal"
+    tools:context="com.kevinmcr.figuras.Areas"
     tools:layout_editor_absoluteX="8dp"
     tools:layout_editor_absoluteY="8dp" />
 
