@@ -1,6 +1,8 @@
 package com.kevinmcr.figuras;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
@@ -20,32 +22,44 @@ public class RegistroCirculo extends AppCompatActivity {
     }
 
     public void guardar (View v){
-        Boolean valid = true;
         String _radio = txtRadio.getText().toString(),
-        regEx = "^[0-9]+([,][0-9]+)?$"; //Para validar que no ingresen: ( ,0) (0, ) ( , )
+        regEx = "^[0-9]+([.][0-9]+)?$"; //Para validar que no ingresen: ( .0) (0. ) ( . )
+        Double resultado;
+
         Pattern r = Pattern.compile(regEx);
         Matcher mRadio = r.matcher(_radio);
 
         if(_radio.isEmpty()){
             txtRadio.requestFocus();
             txtRadio.setError( this.getResources().getString(R.string.error_cantidad_vacio));
-            valid = false;
-        }
-        if(Integer.parseInt(_radio) == 0){
-            txtRadio.requestFocus();
-            txtRadio.setError(this.getResources().getString(R.string.error_cantidad_cero));
-            valid = false;
-        }
-        if(mRadio.find()){
+
+        }else
+        if(!mRadio.find()){
             txtRadio.requestFocus();
             txtRadio.setError( this.getResources().getString(R.string.error_formato));
-            valid = false;
-        }
-        if(valid){
 
-            Operacion o = Metodos.operacionAreaCirculo(_radio);
-            o.guardar();
-            Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
+        }else
+        if(Double.parseDouble(_radio) == 0){
+            txtRadio.requestFocus();
+            txtRadio.setError(this.getResources().getString(R.string.error_cantidad_cero));
+
+        }else{
+
+            resultado = Metodos.operacionAreaCirculo(_radio);
+
+            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+            alertDialogBuilder.setMessage("Resultado: "+resultado+" m2");
+            alertDialogBuilder.setPositiveButton("Ok",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        Toast.makeText(RegistroCirculo.this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_LONG).show();
+                    }
+                }
+            );
+
+            AlertDialog alertDialog = alertDialogBuilder.create();
+            alertDialog.show();
         }
 
     }

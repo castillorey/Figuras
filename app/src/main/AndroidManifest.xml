@@ -16,8 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.kevinmcr.figuras.RegistroCuadrado" />
         <activity android:name="com.kevinmcr.figuras.OpRealizadas"></activity>
+        <activity android:name="com.kevinmcr.figuras.Areas"></activity>
+        <activity android:name="com.kevinmcr.figuras.Volumenes"></activity>
+        <activity android:name="com.kevinmcr.figuras.RegistroCuadrado" />
+        <activity android:name="com.kevinmcr.figuras.RegistroRectangulo"></activity>
+        <activity android:name="com.kevinmcr.figuras.RegistroTriangulo"></activity>
+        <activity android:name="com.kevinmcr.figuras.RegistroCirculo"></activity>
+        <activity android:name="com.kevinmcr.figuras.RegistroEsfera"></activity>
+        <activity android:name="com.kevinmcr.figuras.RegistroCilindro"></activity>
+        <activity android:name="com.kevinmcr.figuras.RegistroCono"></activity>
+        <activity android:name="com.kevinmcr.figuras.RegistroCubo"></activity>
+
     </application>
 
 </manifest>
