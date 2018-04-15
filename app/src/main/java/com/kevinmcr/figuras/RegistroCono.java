@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class RegistroCono extends AppCompatActivity {
     private EditText txtRadio,txtAltura;
 
@@ -18,15 +21,52 @@ public class RegistroCono extends AppCompatActivity {
     }
 
     public void guardar (View v){
+        Boolean valid = true;
+        String _radio = txtRadio.getText().toString(),_altura = txtAltura.getText().toString(),
+        regEx = "^[0-9]+([,][0-9]+)?$"; //Para validar que no ingresen: ( ,0) (0, ) ( , )
+        Pattern r = Pattern.compile(regEx);
+        Matcher mRadio = r.matcher(_radio), mAltura = r.matcher(_altura);
 
-        Double resultado, radio, altura;
-        radio = Double.parseDouble(txtRadio.getText().toString());
-        altura = Double.parseDouble(txtAltura.getText().toString());
-        resultado = (1/3) * 3.14159265359 * Math.pow(radio,2) * altura;
+        if(_radio.isEmpty()){
+            txtRadio.requestFocus();
+            txtRadio.setError( this.getResources().getString(R.string.error_cantidad_vacio));
+            valid = false;
+        }
+        if(Integer.parseInt(_radio) == 0){
+            txtRadio.requestFocus();
+            txtRadio.setError(this.getResources().getString(R.string.error_cantidad_cero));
+            valid = false;
+        }
+        if(mRadio.find()){
+            txtRadio.requestFocus();
+            txtRadio.setError( this.getResources().getString(R.string.error_formato));
+            valid = false;
+        }
+        if(_altura.isEmpty()){
+            txtAltura.requestFocus();
+            txtAltura.setError( this.getResources().getString(R.string.error_cantidad_vacio));
+            valid = false;
+        }
+        if(Integer.parseInt(_altura) == 0){
+            txtAltura.requestFocus();
+            txtAltura.setError(this.getResources().getString(R.string.error_cantidad_cero));
+            valid = false;
+        }
+        if(mAltura.find()){
+            txtAltura.requestFocus();
+            txtAltura.setError( this.getResources().getString(R.string.error_formato));
+            valid = false;
+        }
+        if(valid){
+            Double resultado, radio, altura;
+            radio = Double.parseDouble(txtRadio.getText().toString());
+            altura = Double.parseDouble(txtAltura.getText().toString());
+            resultado = (1/3) * 3.14159265359 * Math.pow(radio,2) * altura;
 
-        Operacion o = new Operacion("Volúmen del cono","Radio: "+radio+ "\nAltura: "+altura,resultado+" m3");
-        o.guardar();
-        Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
+            Operacion o = new Operacion("Volúmen del cono","Radio: "+radio+ "\nAltura: "+altura,resultado+" m3");
+            o.guardar();
+            Toast.makeText(this,getResources().getString(R.string.mensaje_guardado),Toast.LENGTH_SHORT).show();
+        }
 
     }
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Figures</string>
+    <string name="cuadrado">Square</string>
+    <string name="rectangulo">Rectangle</string>
+    <string name="triangulo">Triangle</string>
+    <string name="circulo">Circle</string>
+    <string name="esfera">Sphere</string>
+    <string name="cilindro">Cylinder</string>
+    <string name="cono">Cone</string>
+    <string name="cubo">Cube</string>
+    <string name="operacion">Operation</string>
+    <string name="datos">Data</string>
+    <string name="resultado">Result</string>
+    <string name="numero">No.</string>
+    <string name="guardar">Safe</string>
+    <string name="borrar">Clean up</string>
+    <string name="mensaje_guardado">Successfully saved</string>
+    <string name="areas">Areas</string>
+    <string name="volumenes">Volumes</string>
+    <string name="op_realizadas">Realized Operations</string>
+    <string name="valor_lado">Value of L</string>
+    <string name="valor_base">Value of b</string>
+    <string name="valor_altura">Value of h</string>
+    <string name="valor_radio">Value of r</string>
+    <string name="error_cantidad_vacio">There must not be empty fields</string>
+    <string name="error_cantidad_cero">Input a different number of zero</string>
+    <string name="error_formato">Input a valid number format</string>
+</resources>

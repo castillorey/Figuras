@@ -19,18 +19,4 @@ public class Datos {
         return operaciones;
     }
 
-    public static Boolean validar(EditText campo){
-
-        if(campo.getText().toString().isEmpty()){
-            campo.requestFocus();
-            return false;
-        }
-
-        if(Integer.parseInt(campo.getText().toString()) == 0){
-            campo.requestFocus();
-            return false;
-        }
-
-        return true;
-    }
 }
