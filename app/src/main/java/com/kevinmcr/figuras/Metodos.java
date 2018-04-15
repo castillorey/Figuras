@@ -59,7 +59,7 @@ public class Metodos {
     public static Double operacionVolumenEsfera(String _radio){
         Double resultado, radio;
         radio = Double.parseDouble(_radio);
-        resultado = (4/3) * 3.14159265359 * Math.pow(radio,3);
+        resultado = (1.33333333333) * 3.14159265359 * Math.pow(radio,3);
 
         Operacion o = new Operacion("Volúmen de la esfera","Radio: "+radio,String.format("%.2f",resultado)+" m3");
         o.guardar();
@@ -94,7 +94,7 @@ public class Metodos {
     public static Double operacionVolumenCubo(String _lado){
         Double resultado, lado;
         lado = Double.parseDouble(_lado);
-        resultado = Math.pow(lado,lado);
+        resultado = Math.pow(lado,3);
 
         Operacion o = new Operacion("Volúmen del cubo","Lado: "+lado,String.format("%.2f",resultado)+" m3");
         o.guardar();
