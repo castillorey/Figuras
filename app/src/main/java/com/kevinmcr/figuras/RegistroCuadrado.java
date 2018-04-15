@@ -1,6 +1,7 @@
 package com.kevinmcr.figuras;
 
 import android.content.DialogInterface;
+import android.content.res.Resources;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,12 +14,14 @@ import java.util.regex.Pattern;
 
 public class RegistroCuadrado extends AppCompatActivity {
     private EditText txtLado;
+    private Resources recursos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_cuadrado);
         txtLado = findViewById(R.id.txtLado);
+        recursos = this.getResources();
     }
 
     public void guardar (View v){
@@ -45,7 +48,7 @@ public class RegistroCuadrado extends AppCompatActivity {
 
         }else{
 
-            resultado = Metodos.operacionAreaCuadrado(_lado);
+            resultado = Metodos.operacionAreaCuadrado(_lado,recursos);
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
             alertDialogBuilder.setMessage("Resultado: "+resultado+" m2");

@@ -2,6 +2,7 @@ package com.kevinmcr.figuras;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -14,12 +15,14 @@ import java.util.regex.Pattern;
 
 public class RegistroEsfera extends AppCompatActivity {
     private EditText txtRadio;
+    private Resources recursos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_esfera);
         txtRadio = findViewById(R.id.txtRadio);
+        recursos = this.getResources();
     }
 
     public void guardar (View v){
@@ -46,7 +49,7 @@ public class RegistroEsfera extends AppCompatActivity {
 
         }else{
 
-            resultado = Metodos.operacionVolumenEsfera(_radio);
+            resultado = Metodos.operacionVolumenEsfera(_radio, recursos);
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
             alertDialogBuilder.setMessage("Resultado: "+resultado+" m3");

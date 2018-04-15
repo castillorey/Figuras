@@ -1,6 +1,7 @@
 package com.kevinmcr.figuras;
 
 import android.content.DialogInterface;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -13,12 +14,14 @@ import java.util.regex.Pattern;
 
 public class RegistroCubo extends AppCompatActivity {
     private EditText txtLado;
+    private Resources recursos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_cubo);
         txtLado = findViewById(R.id.txtLado);
+        recursos = this.getResources();
     }
 
     public void guardar (View v){
@@ -45,7 +48,7 @@ public class RegistroCubo extends AppCompatActivity {
 
         }else{
 
-            resultado = Metodos.operacionVolumenCubo(_lado);
+            resultado = Metodos.operacionVolumenCubo(_lado, recursos);
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
             alertDialogBuilder.setMessage("Resultado: "+resultado+" m3");

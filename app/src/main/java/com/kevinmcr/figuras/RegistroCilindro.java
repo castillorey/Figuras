@@ -1,6 +1,7 @@
 package com.kevinmcr.figuras;
 
 import android.content.DialogInterface;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +14,7 @@ import java.util.regex.Pattern;
 
 public class RegistroCilindro extends AppCompatActivity {
     private EditText txtRadio,txtAltura;
+    private Resources recursos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,7 @@ public class RegistroCilindro extends AppCompatActivity {
         setContentView(R.layout.activity_registro_cilindro);
         txtRadio = findViewById(R.id.txtRadio);
         txtAltura = findViewById(R.id.txtAltura);
+        recursos = this.getResources();
     }
 
     public void guardar (View v){
@@ -61,7 +64,7 @@ public class RegistroCilindro extends AppCompatActivity {
 
         }else{
 
-            resultado = Metodos.operacionVolumenCilindro(_radio,_altura);
+            resultado = Metodos.operacionVolumenCilindro(_radio,_altura, recursos);
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
             alertDialogBuilder.setMessage("Resultado: "+resultado+" m3");
@@ -86,5 +89,6 @@ public class RegistroCilindro extends AppCompatActivity {
 
     public void borrar(){
         txtRadio.setText("");
+        txtAltura.setText("");
     }
 }

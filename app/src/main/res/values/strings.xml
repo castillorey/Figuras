@@ -55,4 +55,20 @@
     <string name="error_cantidad_cero">Ingrese un numero diferente de cero</string>
     <string name="error_formato">Ingrese un formato de número valido</string>
 
+    <string name="area_cuadrado">Área del cuadrado</string>
+    <string name="area_rectangulo">Área del rectángulo</string>
+    <string name="area_trinagulo">Área del triángulo</string>
+    <string name="area_circulo">Área del círculo</string>
+
+    <string name="volumen_esfera">Volúmen de la esfera</string>
+    <string name="volumen_cilindro">Volúmen del cilindro</string>
+    <string name="volumen_cono">Volúmen del cono</string>
+    <string name="volumen_cubo">Volúmen del cubo</string>
+
+    <string name="lado_">Lado</string>
+    <string name="base">Base</string>
+    <string name="radio">Radio</string>
+    <string name="altura">Altura</string>
+
+
 </resources>

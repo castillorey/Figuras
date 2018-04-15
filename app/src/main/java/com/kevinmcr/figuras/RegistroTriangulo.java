@@ -1,6 +1,7 @@
 package com.kevinmcr.figuras;
 
 import android.content.DialogInterface;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import java.util.regex.Pattern;
 
 public class RegistroTriangulo extends AppCompatActivity {
     private EditText txtBase, txtAltura;
+    private Resources recursos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,7 @@ public class RegistroTriangulo extends AppCompatActivity {
         setContentView(R.layout.activity_registro_triangulo);
         txtBase = findViewById(R.id.txtBase);
         txtAltura = findViewById(R.id.txtAltura);
+        recursos = this.getResources();
     }
 
     public void guardar (View v){
@@ -63,7 +66,7 @@ public class RegistroTriangulo extends AppCompatActivity {
 
         }else{
 
-            resultado = Metodos.operacionAreaTriangulo(_base,_altura);
+            resultado = Metodos.operacionAreaTriangulo(_base,_altura,recursos);
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
             alertDialogBuilder.setMessage("Resultado: "+resultado+" m2");
